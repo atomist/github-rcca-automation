@@ -22,7 +22,7 @@
     "rcca"
   ],
   "dependencies": {
-    "@atomist/automation-client": "2.0.0-m1.8.0-dynamic-goals.20191119211945",
+    "@atomist/automation-client": "1.8.0-dynamic-goals.20191119211945",
     "@atomist/automation-client-ext-dashboard": "^1.1.0",
     "@atomist/automation-client-ext-humio": "^0.2.1",
     "@atomist/sdm": "1.8.0-master.20191011095607",
@@ -32,22 +32,22 @@
     "lodash": "^4.17.15"
   },
   "devDependencies": {
-    "@types/mocha": "^5.2.7",
-    "@types/node": "^12.7.12",
-    "@types/power-assert": "^1.5.0",
-    "copyfiles": "^2.1.1",
+    "@types/mocha": "^7.0.1",
+    "@types/node": "^13.7.6",
+    "@types/power-assert": "^1.5.3",
+    "copyfiles": "^2.2.0",
     "espower-typescript": "^9.0.2",
-    "mocha": "^6.2.1",
-    "nodemon": "^1.19.3",
+    "mocha": "^7.1.0",
+    "nodemon": "^2.0.2",
     "npm-run-all": "^4.1.5",
     "power-assert": "^1.6.1",
-    "prettier": "^1.18.2",
-    "rimraf": "^3.0.0",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.2",
     "supervisor": "^0.12.0",
-    "ts-node": "^8.4.1",
-    "tslint": "^5.20.1",
-    "typedoc": "^0.15.2",
-    "typescript": "^3.7.2"
+    "ts-node": "^8.6.2",
+    "tslint": "^6.0.0",
+    "typedoc": "^0.16.10",
+    "typescript": "^3.8.2"
   },
   "optionalDependencies": {
     "gc-stats": "^1.4.0",
