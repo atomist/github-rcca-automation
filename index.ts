@@ -14,19 +14,16 @@
  * limitations under the License.
  */
 
-import { Configuration } from "@atomist/automation-client";
-import { configureDashboardNotifications } from "@atomist/automation-client-ext-dashboard";
-import { configureHumio } from "@atomist/automation-client-ext-humio";
-import { configure } from "@atomist/sdm-core";
+import { Configuration } from "@atomist/automation-client/lib/configuration";
 import { githubConvergeSupport } from "@atomist/sdm-pack-rcca-github";
+import { configure } from "@atomist/sdm/lib/core/machine/configure";
 import * as _ from "lodash";
 
 export const configuration = configure(async sdm => {
 
     sdm.addExtensionPacks(
-        githubConvergeSupport({
-            events: { repoGenerated: true },
-        }));
+        githubConvergeSupport(),
+    );
 
     const cfg: Configuration = {
         ws: {
@@ -48,8 +45,4 @@ export const configuration = configure(async sdm => {
 
 }, {
     name: "GitHub RCCA Software Delivery Machine",
-    postProcessors: [
-        configureDashboardNotifications,
-        configureHumio,
-    ],
 });

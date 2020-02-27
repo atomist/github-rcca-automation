@@ -22,12 +22,9 @@
     "rcca"
   ],
   "dependencies": {
-    "@atomist/automation-client": "1.8.0-dynamic-goals.20191119211945",
-    "@atomist/automation-client-ext-dashboard": "^1.1.0",
-    "@atomist/automation-client-ext-humio": "^0.2.1",
-    "@atomist/sdm": "1.8.0-master.20191011095607",
-    "@atomist/sdm-core": "1.8.0-master.20191009161512",
-    "@atomist/sdm-pack-rcca-github": "0.2.0-master.20190910080145",
+    "@atomist/automation-client": "2.0.0-master.20200227093410",
+    "@atomist/sdm": "2.0.0-master.20200227091110",
+    "@atomist/sdm-pack-rcca-github": "0.2.0-master.20200227155431",
     "@atomist/slack-messages": "^1.1.1",
     "lodash": "^4.17.15"
   },
@@ -48,10 +45,6 @@
     "tslint": "^6.0.0",
     "typedoc": "^0.16.10",
     "typescript": "^3.8.2"
-  },
-  "optionalDependencies": {
-    "gc-stats": "^1.4.0",
-    "mtrace": "^1.0.6"
   },
   "directories": {
     "test": "test"
