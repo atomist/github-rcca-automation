@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
- 
+
 import { Configuration } from "@atomist/automation-client/lib/configuration";
 import { githubConvergeSupport } from "@atomist/sdm-pack-rcca-github";
 import { configure } from "@atomist/sdm/lib/core/machine/configure";
