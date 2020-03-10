@@ -24,7 +24,7 @@
   "dependencies": {
     "@atomist/automation-client": "2.0.0-master.20200227093410",
     "@atomist/sdm": "2.0.0-master.20200227091110",
-    "@atomist/sdm-pack-rcca-github": "0.2.0-master.20200227155431",
+    "@atomist/sdm-pack-rcca-github": "0.2.0-master.20200310153031",
     "@atomist/slack-messages": "^1.1.1",
     "lodash": "^4.17.15"
   },
