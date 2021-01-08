@@ -4,7 +4,7 @@ SDM to converge GitHub resources.
 
 ## Support
 
-General support questions should be discussed in the `#support`
+General support questions should be discussed in the `#help`
 channel on our community Slack team
 at [atomist-community.slack.com][slack].
 
